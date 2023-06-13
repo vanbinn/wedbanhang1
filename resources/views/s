@@ -1,0 +1,4 @@
+<form action="{{ route('add-to-cart', $product->id) }}" method="POST">
+									@csrf
+									<button type="submit" class="add-to-cart"><i class="fa fa-shopping-cart"></i></button>
+								</form>
